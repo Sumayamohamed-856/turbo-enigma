@@ -1,0 +1,128 @@
+
+
+/* common nav styles */
+.navigation-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    
+}
+/* left-colum styles */
+.navigation-wrapper > .left-colum {
+    display: flex;
+    align-items: center;
+}
+/* left-colum styles */
+.navigation-wrapper > .left-colum > .icon {
+    margin-right: 15px;
+    
+}
+/* left-colum styles */
+.navigation-wrapper > .left-colum > .icon i {
+    font-size: 2em;
+}
+
+/* left-colum styles */
+.navigation-wrapper > .left-colum > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+/* left-colum styles */
+.contact-hours-wrapper > .hour {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+    
+}
+
+.links-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+   
+
+}
+/* right-colum styles */
+.navigation-wrapper > .right-column > .address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.navigation-wrapper > .center-column > .banner-image img {
+    width: 216px;
+    height: 100%;
+}
+
+.links-wrapper > .nav-link > a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link > a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+/* right-column styles */
+ .navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a {
+    color: #cbcbcb;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a:hover {
+    color: #cea135
+}
+
+
+.navigation-wrapper > .right-column > .contact-icon a {
+    color: #cbcbcb;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a:hover {
+    color: #cea135
+}
+
+.navigation-wrapper > .right-column > .contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+    
+}
